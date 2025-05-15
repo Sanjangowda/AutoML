@@ -1,0 +1,4 @@
+Automated Machine Learning Platform (AutoML) is a web platform where the process of training ML model is automated and reduce the steps such as: hyperparameter tuning, modle selection, feature engineering.
+
+PROBLEM STATEMENT:
+Training a ML model is time consuming and resource intensive as well as complex task to mitigate this problem, our platform provides a user friendly interface which allows even the non-experts and users with no knowledge about Machine learning can train the ML model and dowload it for further implementaion as a service
