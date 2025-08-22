@@ -20,41 +20,6 @@ st.set_page_config(
     page_icon="🧠",
     layout="centered")
 
-# Custom CSS for Glassmorphism UI
-st.markdown("""
-    <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-
-    html, body, [class*="css"] {
-        font-family: 'Poppins', sans-serif;
-
-    .glass-card {
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 20px;
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        padding: 2rem;
-        margin: 1rem 0;
-        color: #ffffff;
-    }
-
-    .glass-button {
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        padding: 0.5rem 1rem;
-        color: white;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-    .glass-button:hover {
-        background: rgba(255, 255, 255, 0.2);
-    }
-    </style>
-""", unsafe_allow_html=True)
-
 # Get working and parent directory
 working_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(working_dir)
